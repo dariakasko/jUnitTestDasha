@@ -1,8 +1,6 @@
 package org.example;
 
-import javax.xml.soap.SAAJResult;
 import java.util.ArrayList;
-import java.util.Comparator;
 
 public class UserManager {
     public ArrayList<User> users = new ArrayList<User>();

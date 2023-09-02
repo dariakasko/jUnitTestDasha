@@ -1,6 +1,6 @@
 package org.example;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 
@@ -15,7 +15,7 @@ public class UserTest {
         userManager.users.add(new User("Twix", 3));
     }
     @Test
-    public void getOldestUser() {
+    public void testOldestUser() {
         Assertions.assertEquals(userManager.getOldestUser(), 40);
     }
 }

@@ -2,7 +2,7 @@ package org.example;
 
 public class User {
     private String name;
-    public int age;
+    private int age;
 
     public User(String name, int age) {
         this.name = name;
